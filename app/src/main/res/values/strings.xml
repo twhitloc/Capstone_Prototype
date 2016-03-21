@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Capstone_Prototype</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_prototype__speech__translation">Prototype_Speech_Translation
+    </string>
+    <string name="title_activity_prototype__text__translation">Prototype_Text_Translation</string>
+    <string name="title_activity_prototype__post__translation__response">
+        Prototype_Post_Translation_Response
+    </string>
+    <string name="speek">Speek</string>
+    <string name="has_Suggestion">Suggestion?</string>
+    <string name="is_Incorrect">Incorrect?</string>
+    <string name="_Other">Other?</string>
+    <string name="example_string">This \n is just \n a sample</string>
+    <string name="translate_more">Translate More</string>
+    <string name="title_activity_prototype__entrance__point">Prototype_Entrance_Point</string>
+    <string name="_translate">Translate</string>
+    <string name="_saved_Translations">View Saved Translations</string>
+    <string name="_exit">Exit</string>
+    <string name="_save_Phrase">Save A Phrase</string>
+    <string name="_enter_phrase">Enter in a phrase using either the keyboard or the microphone</string>
+    <string name="sample_2">This is a sample text</string>
+    <string name="_translate_phrase">Translate This Phrase</string>
+    <string name="_find_this_phrase">Find This Phrase</string>
+
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <string name="title_activity_view__saved__translations">View_Saved_Translations</string>
+    <string name="title_activity_prototype__save__translation">Prototype_Save_Translation</string>
+    <string name="save_suggested_translation">Save this Translation</string>
+    <string name="_view_as_signs">View This Translation Signed</string>
+    <string name="full_scrn">Full Screen Mode</string>
+
+</resources>

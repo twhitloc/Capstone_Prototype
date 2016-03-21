@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dip"
+    android:layout_height="250dip">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:layout_width="match_parent"
+        android:layout_height="200dip">
+    <TextView
+
+        android:id="@+id/lemma"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:scaleType="fitCenter"
+        android:hint="Word"
+        android:textSize="35dip"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/part_of_speech"
+        android:paddingTop="5dip"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:textSize="25dip"
+        android:gravity="center"
+        android:hint="Part Of Speech"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse" />
+
+    <TextView
+        android:id="@+id/dependencies"
+        android:paddingTop="5dip"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:textSize="25dip"
+        android:hint="Dependencies"/>
+    </LinearLayout>
+</FrameLayout>

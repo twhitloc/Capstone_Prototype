@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tylerwhitlock.capstone_prototype">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_prototype__entrance__point"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+        <activity
+            android:name=".Prototype_Translation_Activity"
+            android:label="@string/title_activity_prototype__speech__translation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Prototype_Post_Translation_Response"
+            android:label="@string/title_activity_prototype__post__translation__response"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Prototype_View_Saved_Translations"
+            android:label="@string/title_activity_view__saved__translations"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Prototype_Save_Translation"
+            android:label="@string/title_activity_prototype__save__translation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
