@@ -19,10 +19,12 @@
 
 
         <EditText
+            android:id="@+id/std_english_syntax"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:hint="Standard English Syntax"/>
         <EditText
+            android:id="@+id/asl_syntax"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:hint="Standard American Sign Language Syntax"/>

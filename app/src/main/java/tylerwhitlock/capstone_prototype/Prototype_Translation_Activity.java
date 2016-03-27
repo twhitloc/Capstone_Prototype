@@ -167,6 +167,7 @@ public class Prototype_Translation_Activity extends AppCompatActivity {
                      * ----------------------------------------------------------------------------
                      * URL url = new URL("http://10.0.1.2:8080/English-ASL_prototype/English_ASL");
                      * ----------------------------------------------------------------------------
+                    10.0.1.6:8080
                      */
 
                     //Local Connection Point
@@ -176,7 +177,7 @@ public class Prototype_Translation_Activity extends AppCompatActivity {
                     URLConnection connection = url.openConnection();
 
                     //Get Input String from Edit Text
-                    String inputString = mEditTextView.getText().toString();
+                    String inputString = "03" + mEditTextView.getText().toString();
 
                     //Log the Input String
                     Log.d("inputString", inputString);
