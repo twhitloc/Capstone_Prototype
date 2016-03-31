@@ -1,15 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".Prototype_Translation_Activity"
-    tools:showIn="@layout/activity_prototype_translation">
+    android:orientation="vertical"
+    android:background="@drawable/background"
 
-</RelativeLayout>
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textStyle="italic"
+        android:text="@string/_enter_phrase"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/entered_text"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/linearlayout_bg_light"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/sample_2"
+        android:padding="10dp"
+        />
+    <ImageButton
+        android:paddingTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:id="@+id/speak_Button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/DefaultButtonText"
+        android:contentDescription="@string/speek"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DefaultButtonText"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/_translate_phrase"
+        android:onClick="getTranslation"
+        />
+
+</LinearLayout>

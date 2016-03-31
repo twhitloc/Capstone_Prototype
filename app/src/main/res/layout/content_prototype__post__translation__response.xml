@@ -9,12 +9,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="tylerwhitlock.capstone_prototype.Prototype_Post_Translation_Response"
     tools:showIn="@layout/activity_prototype__post__translation__response">
 
 <LinearLayout
     android:orientation="vertical"
+    android:background="@drawable/linearlayout_bg_light"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
