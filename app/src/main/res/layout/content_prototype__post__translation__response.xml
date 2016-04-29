@@ -72,36 +72,5 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="45dp" />
-<LinearLayout
-    android:orientation="horizontal"
-    android:layout_width="match_parent"
-    android:layout_height="20dp"
-    android:layout_margin="10dp"
-    android:layout_above="@+id/button">
-    <TextView
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:text="@string/full_scrn"
-        android:onClick="has_Suggested_Translation"/>
-    <TextView
-        android:layout_marginLeft="15dp"
-        android:layout_weight="1"
-        android:layout_marginRight="15dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:text="@string/is_Incorrect"
-        android:onClick="translation_Incorrect"/>
-    <TextView
-        android:layout_marginLeft="15dp"
-        android:layout_weight="1"
-        android:layout_marginRight="15dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:text="@string/_Other"
-        android:onClick="other_Thing"/>
-</LinearLayout>
+
 </RelativeLayout>

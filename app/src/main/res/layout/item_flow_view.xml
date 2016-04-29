@@ -27,7 +27,7 @@
         android:layout_height="40dip"
         android:textSize="25dip"
         android:gravity="center"
-        android:hint="Part Of Speech"
+        android:hint=""
         android:textAppearance="?android:attr/textAppearanceSmallInverse" />
 
     <TextView
@@ -37,6 +37,6 @@
         android:layout_width="match_parent"
         android:layout_height="40dip"
         android:textSize="25dip"
-        android:hint="Dependencies"/>
+        android:hint=""/>
     </LinearLayout>
 </FrameLayout>
